@@ -35,7 +35,11 @@ Themepark-Simulation/                 # Project Container
 ### 1. Environment Setup
 Python 3.10.14
 
-### 2. Running the program
+### 2. Dependencies
+numpy
+matplotlib
+
+### 3. Running the program
 
 #### Interactive Mode : python3 adventureworld.py -i
 Interactive mode will ask for number/type of rides and any other variables you include
