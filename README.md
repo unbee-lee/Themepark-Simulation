@@ -2,7 +2,7 @@
 The program simulates a theme park with 4 rides, which are Pirate Ship, Ferris Wheel, Gyrodrop and
 Carousel, with varying movement patterns. 
 
-Each ride has a queue to handle waiting passengers, and patrons wait in each queue. Rides have different statuses: “idle”, “loading”, “riding”, and “unloading”.They check the queues and load passengers according to the ride's capacity. Rides operate according to their respective durations, and when the ride concludes, patrons exit through the ride's exit.
+Each ride has a queue to handle waiting passengers, and patrons wait in each queue. Rides have different statuses: “idle”, “loading”, “riding”, and “unloading”. They check the queues and load passengers according to the ride's capacity. Rides operate according to their respective durations, and when the ride concludes, patrons exit through the ride's exit.
 
 Patrons enter and exit the theme park through the entrances. Each patron has a target ride and must avoid the entire boundary of the rides, buildings, and terrain, with patrons continuing to enter and exit along the way. 
 
@@ -59,10 +59,10 @@ https://github.com/Unbee-lee/Themepark-Simulation/blob/main/Scenario_2.png
 ## Scenario 3 - Night version with 30 patrons
 Batch mode - python3 adventureworld.py -f terrain_night.csv -p param_normal.csv
 
+https://github.com/Unbee-lee/Themepark-Simulation/blob/main/Scenario_3.png
+
 ## Future work
 For more detailed analysis, data on the average number of rides per person and peak usage rates for each weather condition can be utilised. Furthermore, while each ride currently has the same ticket price, this analysis can be used to increase ticket prices for popular rides, further increasing revenue. It would also be effective to compare data when operating strategies were applied differently by varying the number of operating rides, even though all rides were operated in each scenario.
-
-https://github.com/Unbee-lee/Themepark-Simulation/blob/main/Scenario_3.png
 
 
 
