@@ -46,17 +46,17 @@ In batch mode, you will use command line parameters to get the terrain and param
 ## Version information
 4/10/2025 - initial version of 9 programs
 
-## Scenario 1 - Day version with 10 patrons
+## Scenario 1 - Day version initialized with 10 patrons
 Batch mode - python3 adventureworld.py -f terrain_day.csv -p param_normal.csv
 
 https://github.com/Unbee-lee/Themepark-Simulation/blob/main/Scenario1.png
 
-## Scenario 2 - Cloudy version with 30 patrons
+## Scenario 2 - Cloudy version initialized with 30 patrons
 Batch mode - python3 adventureworld.py -f terrain_cloudy.csv -p param_normal.csv
 
 https://github.com/Unbee-lee/Themepark-Simulation/blob/main/Scenario_2.png
 
-## Scenario 3 - Night version with 30 patrons
+## Scenario 3 - Night version initialized with 20 patrons
 Batch mode - python3 adventureworld.py -f terrain_night.csv -p param_normal.csv
 
 https://github.com/Unbee-lee/Themepark-Simulation/blob/main/Scenario_3.png
